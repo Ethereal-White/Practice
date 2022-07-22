@@ -42,11 +42,3 @@ for i in range(length):
             dis[j] = dis[tmpIndex] + graph[tmpIndex][j]
 
 print(dis)
-
-# graph = np.array([[0, 4, 6, 6, m, m, m],
-#                   [m, 0, 1, m, 7, m, m],
-#                   [m, m, 0, m, 6, 4, m],
-#                   [m, m, 2, 0, m, 5, m],
-#                   [m, m, m, m, 0, m, 6],
-#                   [m, m, m, m, 1, 0, 8],
-#                   [m, m, m, m, m, m, m]])
