@@ -7,6 +7,8 @@ The question is: To find the shortest path between A and B
 While I wrote the code of Dijkstra Algorithm which is in the python file in this directory, I also use ChatGPT, an AI, to define a function of Dijkstra algorithm. Here is the code. 
 
 ```python
+INF = float("inf")
+
 def Dijkstra(graph, start, end):
     # Initialize the distances to each vertex to infinity
     n = len(graph)
@@ -41,6 +43,8 @@ def Dijkstra(graph, start, end):
     return dist, prev
 ```
 ```python
+INF = float("inf")
+
 def Dijkstra(graph, start):
     # Initialize the distances to each vertex to infinity
     n = len(graph)
